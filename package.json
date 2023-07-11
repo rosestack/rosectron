@@ -1,0 +1,23 @@
+{
+  "name": "rosectron",
+  "type": "module",
+  "scripts": {
+    "dev": "roserepo run dev",
+    "build": "roserepo run build",
+    "lint": "roserepo run lint",
+    "publish": "roserepo publish",
+    "chanegset": "roserepo changeset",
+    "upgrade": "roserepo upgrade"
+  },
+  "devDependencies": {
+    "@meslzy/eslint-config": "^0.5.1",
+    "@meslzy/tsconfig": "^0.2.1",
+    "rosepack": "^1.0.2",
+    "roserepo": "^1.0.4",
+    "eslint": "8.43.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true
+}

@@ -1,0 +1,35 @@
+{
+  "extends": "@meslzy/tsconfig",
+  "compilerOptions": {
+    "rootDir": "lib",
+    "outDir": "dist",
+    //,
+    "baseUrl": "lib",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "~bin/*": [
+        "./bin/*"
+      ],
+      "~rosectron/*": [
+        "./rosectron/*"
+      ],
+      "~shared/*": [
+        "./shared/*"
+      ],
+      "~types/*": [
+        "./types/*"
+      ]
+    }
+  },
+  "include": [
+    "lib",
+    "test",
+    "rosepack.ts",
+    "rosepack.d.ts"
+  ],
+  "exclude": [
+    "dist"
+  ]
+}

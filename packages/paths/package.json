@@ -1,0 +1,37 @@
+{
+  "name": "@rosectron/paths",
+  "description": "rosectron paths plugin",
+  "version": "1.0.0",
+  "author": {
+    "name": "meslzy",
+    "email": "i@meslzy.com",
+    "url": "https://meslzy.com/"
+  },
+  "repository": "github:rosestack/rosectron",
+  "bugs": "https://github.com/rosestack/rosectron/issues",
+  "homepage": "https://rosestack.meslzy.com/rosectron/plugins/paths",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "rosepack -w",
+    "build": "rosepack",
+    "lint": "eslint source --ext .ts --fix",
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "rosectron": "1.0.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "rosestack",
+    "rosectron",
+    "paths"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "mit"
+}

@@ -1,0 +1,23 @@
+{
+  "extends": "@meslzy/tsconfig",
+  "compilerOptions": {
+    "rootDir": "source",
+    "outDir": "dist",
+    //,
+    "baseUrl": "source",
+    "paths": {
+      "~/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "source",
+    "test",
+    "rosepack.ts",
+    "rosepack.d.ts"
+  ],
+  "exclude": [
+    "dist"
+  ]
+}
