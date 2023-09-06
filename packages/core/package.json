@@ -38,7 +38,7 @@
     "vite-tsconfig-paths": "^4.2.0"
   },
   "devDependencies": {
-    "electron": "^25.2.0",
+    "electron": "^25.5.0",
     "electron-builder": "24.5.2"
   },
   "peerDependencies": {
