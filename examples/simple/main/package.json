@@ -1,0 +1,8 @@
+{
+  "name": "@electron/main",
+  "type": "module",
+  "devDependencies": {
+    "electron": "27.0.3"
+  },
+  "private": true
+}

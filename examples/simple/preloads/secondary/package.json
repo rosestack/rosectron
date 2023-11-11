@@ -1,0 +1,6 @@
+{
+  "name": "@preloads/secondary",
+  "type": "module",
+  "main": "source/index.ts",
+  "private": true
+}

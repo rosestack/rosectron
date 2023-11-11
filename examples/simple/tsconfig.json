@@ -1,0 +1,10 @@
+{
+  "extends": "@meslzy/tsconfig",
+  "include": [
+    "scripts",
+    "rosectron.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

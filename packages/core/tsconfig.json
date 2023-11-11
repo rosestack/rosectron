@@ -1,0 +1,34 @@
+{
+  "extends": "@meslzy/tsconfig",
+  "compilerOptions": {
+    "rootDir": "lib",
+    "outDir": "dist",
+    //,
+    "baseUrl": "lib",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "~bin/*": [
+        "./bin/*"
+      ],
+      "~rosectron/*": [
+        "./rosectron/*"
+      ],
+      "~shared/*": [
+        "./shared/*"
+      ],
+      "~types/*": [
+        "./types/*"
+      ]
+    }
+  },
+  "include": [
+    "lib",
+    "paths",
+    "utils"
+  ],
+  "exclude": [
+    "dist"
+  ]
+}

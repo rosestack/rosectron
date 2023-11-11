@@ -1,0 +1,10 @@
+# pack
+app/
+buildOutput/
+buildResources/
+
+# output
+dist/
+
+# npm
+package-lock.json

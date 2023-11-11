@@ -1,0 +1,14 @@
+{
+  "name": "@renderers/secondary",
+  "type": "module",
+  "main": "index.html",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15"
+  },
+  "private": true
+}

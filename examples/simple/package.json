@@ -1,0 +1,28 @@
+{
+  "name": "simple",
+  "description": "simple",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "rosectron dev",
+    "preview": "rosectron preview",
+    "start": "rosectron start",
+    "pack": "rosectron pack",
+    "icon": "rosectron icon"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.1.0"
+  },
+  "devDependencies": {
+    "rosectron": "latest",
+    "@types/node": "20.8.10",
+    "typescript": "5.2.2",
+    "@meslzy/tsconfig": "0.2.2"
+  },
+  "workspaces": [
+    "main",
+    "preloads/*",
+    "renderers/*"
+  ],
+  "private": true
+}
